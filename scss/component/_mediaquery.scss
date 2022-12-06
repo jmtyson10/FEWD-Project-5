@@ -1,0 +1,7 @@
+@use '../utilities/' as *;
+
+@media screen and (min-width: 645px) {
+    input {
+        width: 500px;
+    }
+}

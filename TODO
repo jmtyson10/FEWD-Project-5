@@ -1,0 +1,27 @@
+Design:
+    ✔ Meets Expectations @done(22-12-05 09:26)
+        ✔ Design implementation includes the thumbnail gallery and a search box. @done(22-12-01 09:32)
+        ✔ General spacing and arrangement of the elements matches the layout of the gallery mockup. @done(22-12-05 09:26)
+        ✔ CSS Grid Layout is used to create the thumbnail gallery layout. @done(22-12-01 09:32)
+        ☐ Thumbnail gallery should have 4 columns when screen width is at 1024px.
+    ☐ Exceeds Expectations
+        ☐ Make the CSS Grid thumbnail gallery responsive without utilizing media queries.
+
+Lightbox functionality:
+    ☐ Meets Expectations
+        ☐ Successfully implements the baguetteBox.js lightbox plugin and ALL of the following features are functioning:
+            ☐ Larger images appear when gallery thumbnail image is clicked.
+            ☐ Background overlay hides the gallery and covers the entire window when displaying larger images.
+            ☐ Images in lightbox include captions.
+            ☐ Lightbox images can be navigated by clicking right and left arrows.
+            ☐ The lightbox can be closed.
+
+Content Filtering:
+    ☐ Meets Expectations
+        ☐ Successfully implements the included searchFilter.JS plugin for the search box functionality and ALL of the following features are functioning:
+            ☐ As the user types into the search box, only photos that match the caption text appear.
+            ☐ Case insensitivity has been added so searches will ignore letter case.
+    ☐ Exceeds Expectations 
+        ☐ Project uses original JavaScript code to implement search box functionality instead of plugin. ALL of the following features are functioning:
+            ☐ As the user types into the search box, only photos that match the caption text appear.
+            ☐ Case insensitivity has been added so searches will ignore letter case.
