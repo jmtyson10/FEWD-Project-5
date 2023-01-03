@@ -1,18 +1,15 @@
-// This is a general functioning search bar. It's styled with _searchBar.scss
-
-// Declare variables
-let search = document.querySelector(['data-search']);
-let dataCaption = document.getElementsByTagName('a');
-
-// envoke an event listener
-// e => is the event handling function
-search.addEventListener("input", e => {
-    const value = e.target.value.toLowerCase();
-
-    for (i = 0; i< captions.length; i++) {
-        if (!dataCaption[i].innerHTML.toLowerCase().includes(value)) {
-            dataCaption[i].style.display="none";
-        } else {
-            dataCaption[i].style.display="";
-        }}
+    const search = document.getElementById('search');
+    
+    search.addEventListener('keyup', e =>{
+        let value = e.target.value.toLowerCase();
+        let cards = document.querySelectorAll('[data-caption]');
+    
+    cards.forEach(card => {
+        const caption = card.getAttribute('data-caption').toLowerCase();
+        if(caption.includes(value)){
+            card.style.display = 'block';
+        }else {
+            card.style.display = 'none';
+        }
     })
+  })
