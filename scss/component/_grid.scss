@@ -8,12 +8,3 @@
     grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
     grid-gap: 15px;
 }
-
-// FlexBoxlayouts
-
-body {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-}

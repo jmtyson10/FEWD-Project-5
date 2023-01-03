@@ -1,22 +1,9 @@
 @use '../utilities/' as *;
 
-input{
-    width: 200px;
-    height: 30px;
-    align-self: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-main{
-    max-width: 1024px;
-}
-
 .gallery {
     justify-content: space-around;
 }
 
-a, img{
-    max-height: 200px;
-    max-width: 200px;
+a{
+    width: 200px;
 }
